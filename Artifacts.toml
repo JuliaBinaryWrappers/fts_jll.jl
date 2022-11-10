@@ -1,83 +1,103 @@
 [[fts]]
 arch = "aarch64"
-git-tree-sha1 = "f40054ca2bf0f92ced75bf725e6093d91e9bde91"
+git-tree-sha1 = "b95c501afd1d7d6c4866f7c9538ee93870db98b5"
 libc = "glibc"
 os = "linux"
 
     [[fts.download]]
-    sha256 = "b4d659ca03fff922ca3ba12535ad14398dcf412a3076a6c138c14222fcbdbde7"
-    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.7+1/fts.v1.2.7.aarch64-linux-gnu.tar.gz"
+    sha256 = "f60096ef715c88fd14e60426dcc3e94305c3edeb3de0a4818d6803be4c14f563"
+    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.8+0/fts.v1.2.8.aarch64-linux-gnu.tar.gz"
 [[fts]]
 arch = "aarch64"
-git-tree-sha1 = "64f559b7f34bc4a83a5321a31174d9d8adc31d30"
+git-tree-sha1 = "864ef14f951401f9fd556ec3618a6502d270c4f7"
 libc = "musl"
 os = "linux"
 
     [[fts.download]]
-    sha256 = "ef5cb215fd2ee80da8b4a653939f899f201f6141a041bf1ff609c5961a557a6a"
-    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.7+1/fts.v1.2.7.aarch64-linux-musl.tar.gz"
+    sha256 = "4888223298194434d92238621c8c52a8fa0eadafe9517c55a971afd5db287d7b"
+    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.8+0/fts.v1.2.8.aarch64-linux-musl.tar.gz"
 [[fts]]
-arch = "armv7l"
+arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "a60fc60b5562ef3c1b60b8f6614e201894a02c55"
+git-tree-sha1 = "a9eb548e7b5a321a5beaaa7c9f2aebbd4983ef7c"
 libc = "glibc"
 os = "linux"
 
     [[fts.download]]
-    sha256 = "64c482367b756a9d082523afc03941113cf479c23eee2074fdced2889a804070"
-    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.7+1/fts.v1.2.7.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "e58739f31ea15225041874b645d07be29c0011b2394d76f01cbd390a87fbf226"
+    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.8+0/fts.v1.2.8.armv6l-linux-gnueabihf.tar.gz"
 [[fts]]
-arch = "armv7l"
+arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "67fcb4b66e1d395c6c64dcb20075b4ffb885e830"
+git-tree-sha1 = "0b3c33caa6adee82c139aaca512d224a22ad8f9c"
 libc = "musl"
 os = "linux"
 
     [[fts.download]]
-    sha256 = "8c1148bd05c98f11ed589a7789e0546cceace31bed253988efdc11445f449cef"
-    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.7+1/fts.v1.2.7.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "4a91a97d525245ad27493d82d9659a518fc604e75a4f8ea18e03f7e5313149e7"
+    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.8+0/fts.v1.2.8.armv6l-linux-musleabihf.tar.gz"
 [[fts]]
-arch = "i686"
-git-tree-sha1 = "b5d57b58bc7f5524e27e16742d3371aa63b15a24"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "c5d2883f92efdca777e06b2f858dfb230bb50874"
 libc = "glibc"
 os = "linux"
 
     [[fts.download]]
-    sha256 = "b85e84266b8355d9edd9cb31de3e06f7302547094079993566e9a8de0224959e"
-    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.7+1/fts.v1.2.7.i686-linux-gnu.tar.gz"
+    sha256 = "4e0df1b8577a52d7fafcf9e917d57dd7f5bb7fb8dde9b65bedbacfdb3537c1f4"
+    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.8+0/fts.v1.2.8.armv7l-linux-gnueabihf.tar.gz"
 [[fts]]
-arch = "i686"
-git-tree-sha1 = "528bd422f06b7d8df385f97e2679a4a15b39cc3c"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "8d65f3797fd88f16102af605224cfafe9d14284b"
 libc = "musl"
 os = "linux"
 
     [[fts.download]]
-    sha256 = "9b468038f7a08b6630723627c41db85bf302c3056372f1ac53f1fbd72ecc0f90"
-    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.7+1/fts.v1.2.7.i686-linux-musl.tar.gz"
+    sha256 = "697a71628807ec8bc63ce076d3bc8aba8a2cb3ccd82120a4f6e1d4807e56ea60"
+    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.8+0/fts.v1.2.8.armv7l-linux-musleabihf.tar.gz"
+[[fts]]
+arch = "i686"
+git-tree-sha1 = "78e8dc82420a72717cf055dbaddcba79bf7739ea"
+libc = "glibc"
+os = "linux"
+
+    [[fts.download]]
+    sha256 = "e7a8b0d46af7823d533a0078e76a6ef76cef02661056dd6dc124c97e7192394b"
+    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.8+0/fts.v1.2.8.i686-linux-gnu.tar.gz"
+[[fts]]
+arch = "i686"
+git-tree-sha1 = "289df563a76053deffed8c5e3edfa24ae335d609"
+libc = "musl"
+os = "linux"
+
+    [[fts.download]]
+    sha256 = "5db6efc16328495ccd28fd8b93b364e6013f24c47cb0439cc2a31dbb213620e0"
+    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.8+0/fts.v1.2.8.i686-linux-musl.tar.gz"
 [[fts]]
 arch = "powerpc64le"
-git-tree-sha1 = "94e550f42fc39befa631012665f3b5c9ead700c1"
+git-tree-sha1 = "fa12c4466ef274b1ad41496f44a235d5663264c0"
 libc = "glibc"
 os = "linux"
 
     [[fts.download]]
-    sha256 = "ec9030be6cc1cc4d53a77cfc78e944047ccbaaa82100bcec362db8040cb7f001"
-    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.7+1/fts.v1.2.7.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "20c94c2539478977d7b55b2e2138ace8e1e1eabb392b9dff6043646cec33e82e"
+    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.8+0/fts.v1.2.8.powerpc64le-linux-gnu.tar.gz"
 [[fts]]
 arch = "x86_64"
-git-tree-sha1 = "4845df03e8c1199d8b9c4364a1eb887caa164fa2"
+git-tree-sha1 = "83ad6455a24cc1b5e7607c72e49b0894d62ed47b"
 libc = "glibc"
 os = "linux"
 
     [[fts.download]]
-    sha256 = "ef239558dee8845174a75dddeb9e4c2919062c37ddb73fb34bb7111297736282"
-    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.7+1/fts.v1.2.7.x86_64-linux-gnu.tar.gz"
+    sha256 = "ace625e7db341bf7d47adc295b0d473b85a5a9bbdf80a2a4cacbf1256336765e"
+    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.8+0/fts.v1.2.8.x86_64-linux-gnu.tar.gz"
 [[fts]]
 arch = "x86_64"
-git-tree-sha1 = "8e18624596085246cd953b5549f63673de700a16"
+git-tree-sha1 = "58f0a4fff98aad89a9380f8700ff7365fd60eb35"
 libc = "musl"
 os = "linux"
 
     [[fts.download]]
-    sha256 = "ddb121f3a8f1ba514afd00d54ea8a6701801989194f5228e7c58a2730a85cde5"
-    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.7+1/fts.v1.2.7.x86_64-linux-musl.tar.gz"
+    sha256 = "c553972e6de08e381d250b42b8d608ab3e6704711fe72129ad337410b3ba56b1"
+    url = "https://github.com/JuliaBinaryWrappers/fts_jll.jl/releases/download/fts-v1.2.8+0/fts.v1.2.8.x86_64-linux-musl.tar.gz"
